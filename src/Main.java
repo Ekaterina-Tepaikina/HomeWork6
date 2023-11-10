@@ -35,5 +35,17 @@ public class Main {
             total = total + deposit;
             System.out.println("Месяц " + i + ", сумма накоплений равна "+total+" рублей.");
         }
+        //Задача 9
+        float total1 = 0;
+        for (byte i = 1; i<13; i++) {
+            total1 = total1 + total1/100f + deposit;
+            System.out.println("Месяц "+i+", сумма накоплений равна "+total1+" рублей.");
+        }
+        //Задача 10
+        int umnojenie;
+        for (byte i=1; i<11; i++) {
+            umnojenie = 2*i;
+            System.out.println("2*"+i+"="+umnojenie);
+        }
     }
 }
